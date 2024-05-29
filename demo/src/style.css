@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Monocraft";
+  src: url("../assets/Monocraft.woff2") format("woff2");
+}
+
+* {
+  font-family: "Monocraft", monospace;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#app {
+  height: 100%;
+  padding: 4px 24px;
+  overflow: hidden;
+}

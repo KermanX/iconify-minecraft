@@ -1,0 +1,25 @@
+{
+  "name": "demo",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.10.0",
+    "floating-vue": "^5.2.2",
+    "fuse.js": "^7.0.0",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@kermanx/iconify-minecraft": "link:..\\dist",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "typescript": "^5.2.2",
+    "unocss": "^0.60.3",
+    "vite": "^5.2.0",
+    "vue-tsc": "^2.0.6"
+  }
+}
