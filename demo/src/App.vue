@@ -56,7 +56,7 @@ const { copy } = useClipboard()
 
 <template>
   <div h-full flex flex-col>
-    <h1 mb-3> Iconify MC Items <span ml-3 p-5 i-mc-painting />  </h1>
+    <h1 mb-3> Iconify Minecraft <span ml-3 p-5 i-mc-painting />  </h1>
     <div flex flex-wrap gap-4 items-center>
       <div ><input type="text" v-model="searching" placeholder="Search icon" p-1 /></div>
       <div flex gap-6>
