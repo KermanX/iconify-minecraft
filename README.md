@@ -39,5 +39,5 @@ export default defineConfig({
 [npm-version-href]: https://npmjs.com/package/@kermanx/iconify-minecraft
 [npm-downloads-src]: https://img.shields.io/npm/dm/@kermanx/iconify-minecraft?style=flat&colorA=080f12&colorB=1fa669
 [npm-downloads-href]: https://npmjs.com/package/@kermanx/iconify-minecraft
-[license-src]: https://img.shields.io/github/license/KermanX/@kermanx/iconify-minecraft.svg?style=flat&colorA=080f12&colorB=1fa669
-[license-href]: https://github.com/KermanX/@kermanx/iconify-minecraft/blob/main/LICENSE
+[license-src]: https://img.shields.io/github/license/KermanX/iconify-minecraft.svg?style=flat&colorA=080f12&colorB=1fa669
+[license-href]: https://github.com/KermanX/iconify-minecraft/blob/main/LICENSE
