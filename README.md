@@ -4,7 +4,7 @@
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![License][license-src]][license-href]
 
-Minecraft icons for [Iconify](https://iconify.design/).
+Minecraft icons for [Iconify](https://iconify.design/) &nbsp;|&nbsp; [**ALL ICONS**](https://kermanx.github.io/iconify-minecraft/)
 
 > [!warning]
 >
