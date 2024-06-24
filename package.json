@@ -6,7 +6,7 @@
   "scripts": {
     "build": "esno ./build.ts",
     "lint": "eslint .",
-    "release": "bumpp && nr build && pnpm -C dist publish",
+    "release": "bumpp && nr build && pnpm --filter ./dist publish",
     "typecheck": "tsc --noEmit",
     "prepare": "simple-git-hooks",
     "play": "nr -C demo dev",
