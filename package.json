@@ -1,6 +1,7 @@
 {
+  "name": "iconify-minecraft",
   "type": "module",
-  "private": true,
+  "version": "0.0.1",
   "packageManager": "pnpm@9.1.2",
   "scripts": {
     "build": "esno ./build.ts",
