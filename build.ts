@@ -3,6 +3,7 @@ import { basename, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import fg from 'fast-glob'
 import { blankIconSet, exportJSONPackage } from '@iconify/tools'
+import { version } from './package.json'
 
 const __dirname = fileURLToPath(new URL('.', import.meta.url))
 
@@ -32,8 +33,8 @@ const target = resolve(__dirname, 'dist')
 await exportJSONPackage(iconSet, {
   target,
   package: {
-    name: `@kermanx/iconify-minecraft`,
-    version: '1.0.1',
+    name: `iconify-minecraft`,
+    version,
     bugs: 'https://github.com/kermanx/iconify-minecraft/issues',
     homepage: 'https://github.com/kermanx/iconify-minecraft',
   },

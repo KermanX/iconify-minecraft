@@ -1,13 +1,12 @@
 {
-  "name": "iconify-minecraft",
   "type": "module",
-  "version": "0.0.1",
+  "version": "1.0.1",
+  "private": "true",
   "packageManager": "pnpm@9.1.2",
   "scripts": {
     "build": "esno ./build.ts",
     "lint": "eslint .",
-    "prepublishOnly": "nr build",
-    "release": "bumpp && npm publish",
+    "release": "bumpp && nr build && pnpm -C dist publish",
     "typecheck": "tsc --noEmit",
     "prepare": "simple-git-hooks",
     "play": "nr -C demo dev",
